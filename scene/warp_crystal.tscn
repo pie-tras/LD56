@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://c8f76pwk0doqw"]
+
+[ext_resource type="Script" path="res://scene/warp_crystal.gd" id="1_d8ut6"]
+[ext_resource type="Texture2D" uid="uid://4hwg7gseqbur" path="res://texture/warp_crystal.png" id="1_qk32t"]
+[ext_resource type="Script" path="res://script/warp_sprite.gd" id="2_i41ik"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_0f7nk"]
+
+[node name="WarpCrystal" type="Node2D"]
+script = ExtResource("1_d8ut6")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_qk32t")
+script = ExtResource("2_i41ik")
+
+[node name="InteractArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractArea"]
+shape = SubResource("CircleShape2D_0f7nk")
+
+[connection signal="body_entered" from="InteractArea" to="." method="_on_interact_area_body_entered"]
