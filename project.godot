@@ -11,9 +11,8 @@ config_version=5
 [application]
 
 config/name="LD56"
-run/main_scene="res://scene/main_level.tscn"
+run/main_scene="res://scene/grass_level.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
-config/icon="res://icon.svg"
 
 [autoload]
 

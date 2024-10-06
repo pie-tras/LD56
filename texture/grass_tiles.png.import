@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://4hwg7gseqbur"
-path="res://.godot/imported/warp_crystal.png-e608563697d81cdb1b1355d91dc9a3bf.ctex"
+uid="uid://defky65pug01l"
+path="res://.godot/imported/grass_tiles.png-ac8a5a70b6e6440201d6495c67197b79.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://texture/warp_crystal.png"
-dest_files=["res://.godot/imported/warp_crystal.png-e608563697d81cdb1b1355d91dc9a3bf.ctex"]
+source_file="res://texture/grass_tiles.png"
+dest_files=["res://.godot/imported/grass_tiles.png-ac8a5a70b6e6440201d6495c67197b79.ctex"]
 
 [params]
 
